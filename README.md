@@ -136,4 +136,5 @@ You can also dockerize this stack and deploy a container.
 Here are some resources that we commonly refer to:
 
 - [Protecting routes with Next-Auth.js](https://next-auth.js.org/configuration/nextjs#unstable_getserversession)
+
 # dancing-lion-v2
