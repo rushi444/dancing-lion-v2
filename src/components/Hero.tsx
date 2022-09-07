@@ -5,7 +5,7 @@ import { GoMute, GoUnmute } from 'react-icons/go'
 import { useIsSSR } from '../hooks/useIsSSR'
 
 export const Hero = () => {
-	const [muted, setMuted] = useState(true)
+	const [muted, setMuted] = useState(false)
 	const { isSSR } = useIsSSR()
 
 	if (isSSR) return null
